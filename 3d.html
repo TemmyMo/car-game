@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>3d game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(/images/skyy.jpg);
+        }
+    </style>
+	<div id="game">
+		<img style="position: absolute;opacity: .3;" src="stones.jpg" width="300px" height="500px">
+		<div id="block">
+			<div id="front_block">
+				<img style="position: absolute;" src="building.jpg" width="100px" height="300px">
+			</div>
+			<div id="back_block">
+				<img style="position: absolute;" src="building.jpg" width="100px" height="300px">
+			</div>
+			<div id="left_block">
+				<img style="position: absolute;" src="building.jpg" width="300px" height="100px">
+			</div>
+			<div id="right_block">
+				<img style="position: absolute;" src="building.jpg" width="300px" height="100px">
+			</div>
+			<div id="top_block"></div>
+		</div>
+		<div id="character">
+			<img style="opacity: .3;" src="car.jpg" width="100px" height="100px">
+			<div id="head">
+				<img style="position: absolute;border-radius: 30px;" src="back_head.jpg" width="30px" height="30px">
+			</div>
+			<div id="body"></div>
+			<div id="front_character">
+
+				<img src="car.jpg" width="100px" height="25px">
+			</div>
+			<div id="back_character">
+				<img src="car.jpg" width="100px" height="25px">
+			</div>
+			<div id="left_character">
+				<img src="car.jpg" width="25px" height="100px">
+			</div>
+			<div id="right_character">
+				<img src="car.jpg" width="25px" height="100px">
+			</div>
+			
+		</div>
+	</div>
+    <script src="3d.js"></script>
+
+</body>
+</html>
